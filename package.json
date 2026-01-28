@@ -1,6 +1,6 @@
 {
   "name": "tag-and-release",
-  "version": "v1.0.19",
+  "version": "v1.0.20",
   "description": "With a git repository, this module stages all untracked files, bumps the version number in package.json, commits changes, tags the commit with the bumped version number and pushes bo the code and tags.",
   "main": "index.js",
   "respository": "https://github.com/andrew-paterson/tag-and-release",
@@ -12,7 +12,6 @@
   "dependencies": {
     "chalk": "^4.1.1",
     "git": "^0.1.5",
-    "node-sundries": "0.0.8",
     "simple-git": "^2.40.0"
   },
   "devDependencies": {
